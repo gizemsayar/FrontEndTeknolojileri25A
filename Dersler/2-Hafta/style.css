@@ -16,12 +16,34 @@ p {
     border-bottom: 3px solid red;
 }
 
-table,
-th,
-td {
+table {
+    width: 100%;
+}
+
+th, td {
     border: 1px solid black;
 }
 
 #yanMenu {
-    
+    width: 250px;
+    height: 500px;
+}
+
+#reklamAlani {
+    width: 500px;
+    height: 125px;
+}
+
+#govde {
+    width: 500px;
+    height: 500px;
+}
+
+#footer {
+    height: 50px;
+}
+
+th {
+    padding: 5px;
+    text-align: left;
 }
