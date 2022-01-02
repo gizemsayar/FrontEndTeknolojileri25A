@@ -1,23 +1,22 @@
-p  
 h1 {
     color:yellow;
 }
- {
-    table, th, td {
+table, th, td {
         border:1px solid black;
         width: 100%;
       }
-    #header{
-        height: 75px;
-    }
+
+#header{
+    height: 75px;
+}
     
-    #category{
-        height: 40px;
-    }
+#category{
+    height: 40px;
+}
     
-    #yanMenu{
-        height: 250px;
-    }
+#yanMenu{
+    height: 250px;
+}
     
     #reklamAlani{
         height: 500px;
@@ -30,10 +29,3 @@ h1 {
     #footer{
         height: 500px;
     }
-
-
-
-
-
-
-    
