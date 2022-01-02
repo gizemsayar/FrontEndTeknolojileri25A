@@ -1,0 +1,20 @@
+p {
+    color: black;
+    background-color: grey;
+    /* margin: 5px; */
+    /* padding: 5px; */
+    /* top,right,bottom,left */
+    /* padding: 5px 5px 5px 5px; */
+    
+    padding-left: 5px;
+    margin-left: 15px;
+    width: 50%;
+    height: 125px;
+    
+    border: 1px solid greenyellow;
+    border-left: 3px solid green;
+    border-bottom: 3px solid green;
+
+
+
+    
