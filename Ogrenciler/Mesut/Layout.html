@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <!-- CTRL+F5 Tarayıcı Sayfasını Tazeler. -->
-    <head>
-        <title> Layout Sayfamız | fta25A </title>
-        <!-- CSS dosyaları için link etiketi -->
-        <link rel="stylesheet" href="style.css"></link>
-    
-    </head>
-    <body>
-       <table>
-            <thead>
+<!-- CTRL+F5 Tarayıcı Sayfasını Tazeler. -->
+
+<head>
+    <title> Layout Sayfamız | fta25A </title>
+    <!-- CSS dosyaları için link etiketi -->
+    <link rel="stylesheet" href="style.css">
+    </link>
+
+</head>
+
+<body>
+    <table class="tableMenu">
+        <thead>
             <tr>
-                <th id="baslik" colspan="5"><img id="resim" src="https://st2.depositphotos.com/3765753/5349/v/950/depositphotos_53491489-stock-illustration-example-rubber-stamp-vector-over.jpg" />
+                <th id="baslik" colspan="5"><img id="resim"
+                        src="https://st2.depositphotos.com/3765753/5349/v/950/depositphotos_53491489-stock-illustration-example-rubber-stamp-vector-over.jpg" />
                     Header </th>
             </tr>
-            </thead>
-            <tbody>
+        </thead>
+        <tbody>
             <tr>
                 <td id="kategori" colspan="5"> Kategoriler </td>
             </tr>
@@ -29,15 +33,34 @@
                         <li>Menu4</li>
                     </ul>
                 </td>
-                <td id="reklam" colspan="4" > Reklam Alanı </td>
+                <td id="reklam" colspan="4"> Reklam Alanı </td>
             </tr>
             <tr>
-                <td id="govde" colspan="4" > Gövde </td>
+                <td id="govde" colspan="4"> Gövde </td>
             </tr>
             <tr>
-                <td id="footer" colspan="5" > Footer </td>
+                <td id="footer" colspan="5"> Footer </td>
             </tr>
-            </tbody>
-        </table>
-    </body>
+        </tbody>
+    </table>
+
+    <div class=menuDiv>
+        <div id="baslikDiv"><img id="resim"
+                src="https://st2.depositphotos.com/3765753/5349/v/950/depositphotos_53491489-stock-illustration-example-rubber-stamp-vector-over.jpg" />
+            Header </div>
+
+            <div class="yanMenuDiv">
+                Yan Menü
+                <ul>
+                    <li>Menu1</li>
+                    <li>Menu2</li>
+                    <li>Menu3</li>
+                    <li>Menu4</li>
+                </ul>
+            </div>
+    </div>
+
+
+</body>
+
 </html>

@@ -47,3 +47,21 @@ th, td {
     border-bottom: 5px solid green;
     
 }
+
+.tableMenu+ div{
+    padding: 100px;
+}
+.menuDiv{
+
+    border:1px solid black;
+
+}
+.baslikDiv{
+    height: 75px;
+    text-align: left;
+    border:1px solid black;
+}
+.yanMenuDiv{
+    width: 250px;
+    height: 250px;
+}
