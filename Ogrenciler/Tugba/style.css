@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+  }
+#header{
+    height: 75px;
+}
+
+#category{
+    height: 40px;
+}
+
+#yanMenu{
+    height: 150px;
+}
+
+#reklamAlanı{
+    height: 50px;
+}
+
+#govde{
+    height: 100px;
+}
+
+#footer{
+    height: 50px;
+}
