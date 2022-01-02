@@ -15,3 +15,13 @@ p {
     border-left: 3px solid red; /* Sol Kalınlık */
     border-bottom: 3px solid red;
 }
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#yanMenu {
+    
+}
