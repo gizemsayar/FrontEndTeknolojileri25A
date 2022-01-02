@@ -1,0 +1,28 @@
+p{
+    background-color: blue;
+    padding-left: 5px;
+    margin-left: 20px;
+    width: 40%;
+    min-height: auto;
+    border: 1px solid  cadetblue ;/* top,right,bottom,left  */
+}
+
+h1{
+
+    color: aquamarine;
+}
+table{
+    background-color: thistle;
+    width: 500px;
+    height: 500px;
+    border: 7px solid rgb(250, 134, 2); /* top,right,bottom,left */
+}
+td{
+    border: 3px solid yellow;
+}
+#govde{
+    height: 125px;
+}
+#reklamAlani{
+    background-color: rgb(59, 178, 187);
+}

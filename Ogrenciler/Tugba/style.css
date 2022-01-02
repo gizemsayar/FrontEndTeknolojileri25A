@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+#header {
+    height: 75px;
+}
+
+#category {
+    height: 40px;
+}
+
+#yanMenu {
+    width: 250px;
+    height: 150px;
+}
+
+#reklamAlani {
+    width: 500px;
+    height: 50px;
+}
+
+#govde {
+    width: 500px;
+    height: 100px;
+}
+
+#footer{
+    height: 50px;
+}
