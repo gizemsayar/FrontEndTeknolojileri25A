@@ -1,3 +1,7 @@
+/* * {
+    color: black !important;
+} */
+
 p {
     color: black;
     background-color: grey;
@@ -21,29 +25,74 @@ table {
 }
 
 th, td {
+    color: red;
     border: 1px solid black;
 }
 
-#yanMenu {
+.yanMenu {
     width: 250px;
     height: 500px;
 }
 
-#reklamAlani {
+.yanMenu.aciklama {
+    color: green;
+}
+
+.reklamAlani {
     width: 500px;
     height: 125px;
 }
 
-#govde {
+.govde {
     width: 500px;
     height: 500px;
 }
 
-#footer {
+.footer {
     height: 50px;
 }
 
 th {
     padding: 5px;
     text-align: left;
+}
+
+/* Önek İçeren */
+/* a[href^="http"] {
+    font-size: 10px;
+} */
+
+/* Eşit Olan */
+/* a[href="http"] {
+    font-size: 15px;
+} */
+
+/* Sonek İçeren */
+/* a[href$=".com"] {
+    font-size: 12px;
+} */
+
+.category_woman:active {
+    color: green;
+    font-size: 16px;
+}
+
+a[class^="category_"]:hover {
+    color: red;
+    font-size: 22px;
+}
+
+.footer span::before {
+    padding-right: 5px;
+    content: "-";
+}
+
+.footer span::after {
+    padding-left: 5px;
+    content: ">";
+}
+
+.govde > a {
+    text-decoration: none;
+    color: black;
 }
