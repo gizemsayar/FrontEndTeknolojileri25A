@@ -1,0 +1,18 @@
+header{
+    height: 125px;
+    font-size: 14px;
+    color:rgb(238, 13, 13);
+    /* color:red;
+       color:#e90f0fd5 */
+    text-align: center;
+
+}
+
+@media screen and (max-width:600px) {
+    header{
+        height: 25px;
+        font-size: 9px;
+        color:blue;
+        text-align: center;
+    }
+}
