@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
+.leftMenu {
+    display: flex;
+    width: 250px;
+    height: 300px;
+}
+
+.mainMenu {
+    display: flex;
+    width: 750px;
+    height: 300px;
+}
+
+.container .wrapper header {
+    height: 125px;
+}
+
+footer {
+    text-align: right;
+    height: 75px;
+}
+
+.container .wrapper .mainMenu article {
+    font-size: 12px;
+}
+
+/* .container article {
+    font-size: 14px;
+} */
+
+@media screen and (max-width: 600px) {
+    .container .wrapper header {
+        height: 50px;
+    }
+
+    .leftMenu {
+        width: 100px;
+        height: 150px;
+    }
+
+    .mainMenu {
+        width: 375px;
+        height: 150px;
+    }
+    
+    footer {
+        height: 50px;
+        /* vertical-align: middle; */
+    }
+}
