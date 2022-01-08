@@ -11,10 +11,11 @@
     overflow:auto;
 }
 .wrapper1{
+    border:1px solid black;
     float:left;
 }
 .wrapper2{
-    margin-left:750px ;
+    margin-left:250px ;
     border:1px solid black;
 }
 
