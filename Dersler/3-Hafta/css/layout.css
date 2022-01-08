@@ -98,5 +98,5 @@ footer {
     font-family: 'Arial' // font ailesini temsil eder.
     font-weight: bold // fontun (yazıtipi) ağırlığını (kalınlığını) temsil eder.
     float: left // sola yaslar (seçili elamanın tamanını)
-    position: 
+    position: yer tutucu (bulunduğu yeri belirlemek için kullanılır. Varsayılan 'relative'
 */
