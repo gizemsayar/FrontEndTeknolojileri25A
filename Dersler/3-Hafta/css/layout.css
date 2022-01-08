@@ -2,20 +2,43 @@
     width: 100%;
 }
 
+.wrapper {
+    /* clear: both; */
+}
+
 .border {
-    border: 1px solid #000;
+    border: 3px solid #000;
+    /* border-radius: 5px; */
+    /* border-radius: 2px 1px 3px 2px ; */
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
 }
 
 .leftMenu {
     display: flex;
     width: 250px;
     height: 300px;
+    margin: 5px;
+    /* margin: 5px 0 5px 0; */
+    margin: 5px 0; /* Yukarı-Aşağı, Sağ-Sol */
+    /* margin-right: 3px; */
+    float: left;
 }
 
 .mainMenu {
     display: flex;
     width: 750px;
     height: 300px;
+    text-align: center;
+    font-weight: 400;
+    float: left;
+}
+
+.mainMenu:hover {
+    text-decoration: underline;
+    cursor: crosshair;
 }
 
 .container .wrapper header {
@@ -48,6 +71,7 @@ footer {
     .mainMenu {
         width: 375px;
         height: 150px;
+        background: gray ;
     }
     
     footer {
@@ -55,3 +79,24 @@ footer {
         /* vertical-align: middle; */
     }
 }
+
+/*
+    width: genişlik px, pt, %
+    height: yükseklik px, pt, %
+    background: arkaplan durumu
+    border: kenar kalınlıkları / kalınlık
+        border: 1px;
+        border-style: solid;
+        border-color: #000;
+        border: 1px solid #000;
+    border-radius: 1px; // top, right, bottom, left
+    margin: eleman boşlukları 5px 5px 5px 5px (eleman içinde öteler ref: images/paddingmargin.png)
+    padding: eleman boşluk 5px 5px 5px 5px (elemanın dışında öteler ref: images/paddingmargin.png)
+    text-align: ifadeyi (metni) yaslamak için kullanılır (sağ, sol, ortalı, iki-yana)
+    text-decoration: underline; ifadenin altı çizgili olmasını sağlar.
+    font-size: 12px // font büyüklüğü
+    font-family: 'Arial' // font ailesini temsil eder.
+    font-weight: bold // fontun (yazıtipi) ağırlığını (kalınlığını) temsil eder.
+    float: left // sola yaslar (seçili elamanın tamanını)
+    position: 
+*/
