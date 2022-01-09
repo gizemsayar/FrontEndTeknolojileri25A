@@ -6,24 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Örnekleri</title>
     <style>
+        #main {
+            margin: auto;
+            /* width: 1200px; */
+            width: 80%;
+            padding: 5px;
+            border: 1px solid red;
+        }
+
+        /* E.g. Tablet */
+        @media screen and (max-width: 1024px) {
+            #main {
+                width: 90%;
+            }
+        }
+
+        /* E.g. Mobile */
+        @media screen and (max-width: 600px) {
+            #main {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        /* E.g. 2 diff */
+        @media screen and (min-width: 600px) and (max-width: 800px) {
+            #main {
+                width: 95%;
+            }
+        }
+
         .container {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
         }
 
         .container div {
-            width: 33.334%;
+            width: calc(33.33% - 2px - 20px - 10px);
+            height: 200px;
             border: 1px solid #000;
+            margin: 10px; /* sol - 10px, sağ - 10px */
             padding: 5px;
-            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div> 1. Kutu </div>
-        <div> 2. Kutu </div>
-        <div> 3. Kutu </div>
+    <div id="main">
+        <div class="container">
+            <div> 1. Kutu </div>
+            <div> 2. Kutu </div>
+            <div> 3. Kutu </div>
+            <div> 4. Kutu </div>
+            <div> 5. Kutu </div>
+            <div> 6. Kutu </div>
+        </div>
     </div>
 </body>
 </html>
